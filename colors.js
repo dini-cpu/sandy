@@ -21,3 +21,7 @@ while (i < alist.length) {
 alist[i].style.color = 'black'
 i = i + 1;
 }}}
+
+
+
+
