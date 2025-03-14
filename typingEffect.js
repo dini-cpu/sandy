@@ -25,7 +25,7 @@ window.onload = function() {
         const text = paragraph.innerHTML.replace(/<br\s*\/?>/g, '\n'); // <br> 태그를 \n으로 변환
         paragraph.innerHTML = ''; // 초기화
         setTimeout(() => {
-            typeText(paragraph, text, 50); // 타이핑 효과 적용
+            typeText(paragraph, text, 70); // 타이핑 효과 적용
         }, index * 3000); // 각 문단의 시작 시간을 조정
     });
 };
